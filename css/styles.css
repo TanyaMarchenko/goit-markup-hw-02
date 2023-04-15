@@ -1,0 +1,55 @@
+/* body */
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+/* Menu Nav */
+
+.logo {
+    color: #4D5AE5;
+}
+
+.logo-next-footer, .text-footer {
+    color: #F4F4FD;
+}
+
+.main-menu {
+}
+.main-menu-list {
+}
+.main-menu-item {
+}
+.main-menu-link {
+}
+
+/* main section */
+
+.main-section {
+    background-color: #2E2F42;
+}
+
+.main-title {
+    color: #FFFFFF;
+}
+
+.title, .main-menu-link, .logo-next-nav {
+    color: #2E2F42;
+}
+
+.button {
+    color: #404BBF;
+    background-color: #F4F4FD;
+}
+
+.main-button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+.button:active,
+.button:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
