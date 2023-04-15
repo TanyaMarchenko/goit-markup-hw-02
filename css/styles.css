@@ -1,13 +1,24 @@
-/* body */
+/* BODY */
+
 body {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
     background-color: #FFFFFF;
 }
 
-/* Menu Nav */
+/* MENU NAV */
 
 .logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    text-transform: uppercase;
     color: #4D5AE5;
 }
 
@@ -15,48 +26,92 @@ body {
     color: #F4F4FD;
 }
 
-.filters-button {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+.title,
+.main-menu-link,
+.logo-next-nav {
+    color: #2E2F42;
 }
 
-[href="mailto:info@devstudio.com"], [href="tel:+110001111111"] {
+.contacts {
     color: inherit;
+    font-style: normal;
 }
 
-/* main section */
-
-.main-section, .footer-section {
+.main-section, .footer {
     background-color: #2E2F42;
 }
 
+/* TITLES */
+
 .main-title {
     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
 }
 
-.title, .main-menu-link, .logo-next-nav {
-    color: #2E2F42;
+/* COLUMNS */
+
+.three-columns {
+    column-count: 3;
 }
+
+.four-columns {
+    column-count: 4;
+}
+
+.five-columns {
+    column-count: 5;
+}
+
+/* BUTTONS */
 
 .button {
     color: #404BBF;
     background-color: #F4F4FD;
     cursor: pointer;
+    border-width: 0px;
+    border-radius: 4px;
 }
 
 .main-button {
     color: #FFFFFF;
     background-color: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+}
+
+.filters-button {
+    padding: 12px 24px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button:active,
+.button:focus,
 .button:hover {
     color: #FFFFFF;
     background-color: #404BBF;
 }
 
-/* section-team */
+/* TEAM */
 
 .section-team {
     background-color: #F4F4FD;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none
+}
+
+.text-sections {
+    color: #434455; 
+}
+
+.opacity {
+    opacity: 0;
 }

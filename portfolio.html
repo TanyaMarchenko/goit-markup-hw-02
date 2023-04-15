@@ -5,12 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="" href="./index.html" />
   </head>
@@ -18,31 +15,31 @@
     <header>
       <!-- Logo, Menu Nav -->
       <nav class="main-menu">
-        <a href="./index.html">
-          <span class="logo">Web</span>
-          <span class="logo-next-nav">Studio</span>
+        <a class="link logo" href="./index.html">
+          <span class="logo logo-first-nav">Web</span>
+          <span class="logo logo-next-nav">Studio</span>
         </a>
-        <ul class="main-menu-list">
+        <ul class="list main-menu-list">
           <li class="main-menu-item">
-            <a href="./index.html" class="main-menu-link">Studio</a>
+            <a class="link main-menu-link" href="./index.html">Studio</a>
           </li>
           <li class="main-menu-item">
-            <a href="./portfolio.html" class="main-menu-link">Portfolio</a>
+            <a class="link main-menu-link" href="./portfolio.html">Portfolio</a>
           </li>
           <li class="main-menu-item">
-            <a href="/contacts" class="main-menu-link">Contacts</a>
+            <a class="link main-menu-link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address class="address">
-        <ul>
+      <address>
+        <ul class="list">
           <li>
-            <a href="mailto:info@devstudio.com" class="address-mail"
+            <a class="link contacts" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+110001111111" class="address-tel"
+            <a class="link contacts" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -52,10 +49,12 @@
     <main>
       <!-- Filters, buttons-->
       <section>
-        <h1>Filters</h1>
-        <ul>
+        <h1 class="opacity">Filters</h1>
+        <ul class="list five-columns">
           <li>
-            <button class="button filters-button" type="button">All</button>
+            <button class="button filters-button" type="button">
+              All
+            </button>
           </li>
           <li>
             <button class="button filters-button" type="button">
@@ -63,10 +62,14 @@
             </button>
           </li>
           <li>
-            <button class="button filters-button" type="button">App</button>
+            <button class="button filters-button" type="button">
+              App
+            </button>
           </li>
           <li>
-            <button class="button filters-button" type="button">Design</button>
+            <button class="button filters-button" type="button">
+              Design
+            </button>
           </li>
           <li>
             <button class="button filters-button" type="button">
@@ -76,128 +79,128 @@
         </ul>
       </section>
       <!-- Section 1 -->
-      <section>
-        <h2>Row 1</h2>
-        <ul>
+      <section class="row first-row">
+        <h2 class="opacity">Row 1</h2>
+        <ul class="list three-columns">
           <li>
-            <a href="">
+            <a class="link" href="">
               <img
                 src="./images/portfolio/section-1/img-1.jpg"
                 alt="BankApp"
                 width="360"
               />
               <h3 class="title">Banking App Interface Concept</h3>
-              <p>App</p>
+              <p class="text-sections">App</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="link" href="">
               <img
                 src="./images/portfolio/section-1/img-2.jpg"
                 alt="Smartphones"
                 width="360"
               />
               <h3 class="title">Cashless Payment</h3>
-              <p>Marketing</p>
+              <p class="text-sections">Marketing</p>
             </a>
           </li>
           <li>
-            <a href=""
+            <a class="link" href=""
               ><img
                 src="./images/portfolio/section-1/img-3.jpg"
                 alt="Notebook and smartphone"
                 width="360"
               />
               <h3 class="title">Meditaion App</h3>
-              <p>App</p>
+              <p class="text-sections">App</p>
             </a>
           </li>
         </ul>
       </section>
       <!-- Section 2 -->
-      <section>
-        <h2>Row 2</h2>
-        <ul>
+      <section class="row second-row">
+        <h2 class="opacity">Row 2</h2>
+        <ul class="list three-columns">
           <li>
-            <a href="">
+            <a class="link" href="">
               <img
                 src="./images/portfolio/section-2/img-1.jpg"
                 alt="Driver"
                 width="360"
               />
               <h3 class="title">Taxi Service</h3>
-              <p>Marketing</p>
+              <p class="text-sections">Marketing</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="link" href="">
               <img
                 src="./images/portfolio/section-2/img-2.jpg"
                 alt="Smartphone theme"
                 width="360"
               />
               <h3 class="title">Screen Illustrations</h3>
-              <p>Design</p>
+              <p class="text-sections">Design</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="link" href="">
               <img
                 src="./images/portfolio/section-2/img-3.jpg"
                 alt="A girl on an online course"
                 width="360"
               />
               <h3 class="title">Online Courses</h3>
-              <p>Marketing</p>
+              <p class="text-sections">Marketing</p>
             </a>
           </li>
         </ul>
-      </section>
+      </section class="row third-row">
       <!-- Section 3 -->
       <section>
-        <h2>Row 3</h2>
-        <ul>
+        <h2 class="opacity">Row 3</h2>
+        <ul class="list three-columns">
           <li>
-            <a href="">
+            <a class="link" href="">
               <img
                 src="./images/portfolio/section-3/img-1.jpg"
                 alt="Instagram Stories"
                 width="360"
               />
               <h3 class="title">Instagram Stories Concept</h3>
-              <p>Design</p>
+              <p class="text-sections">Design</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="link" href="">
               <img
                 src="./images/portfolio/section-3/img-2.jpg"
                 alt="Bag with food"
                 width="360"
               />
               <h3 class="title">Organic Food</h3>
-              <p>Web Site</p>
+              <p class="text-sections">Web Site</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="link" href="">
               <img
                 src="./images/portfolio/section-3/img-3.jpg"
                 alt="Fresh Coffee"
                 width="360"
               />
               <h3 class="title">Fresh Coffee</h3>
-              <p>Web Site</p>
+              <p class="text-sections">Web Site</p>
             </a>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="footer-section">
+    <footer class="footer footer-portfolio">
       <!-- Logo -->
-      <a href="./index.html">
-        <span class="logo">Web</span>
-        <span class="logo-next-footer">Studio</span>
+      <a class="link logo" href="./index.html">
+        <span class="logo logo-first-footer">Web</span>
+        <span class="logo logo-next-footer">Studio</span>
       </a>
       <p class="text-footer">
         Increase the flow of customers and sales for your business with digital
