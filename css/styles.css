@@ -103,20 +103,6 @@ body {
     letter-spacing: 0.02em;
 }
 
-/* COLUMNS */
-
-.three-columns {
-    column-count: 3;
-}
-
-.four-columns {
-    column-count: 4;
-}
-
-.five-columns {
-    column-count: 5;
-}
-
 /* BUTTONS */
 
 .button {
